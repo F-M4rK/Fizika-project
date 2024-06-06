@@ -1,7 +1,10 @@
+
 #con{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: 2px,black,solid;
     border-radius: 20px;
-    margin-top: 120px;
+    padding: 15px;
+    margin-top: 100px;
 }
 
 h3{
@@ -10,7 +13,18 @@ h3{
 }
 
 img{
+    border-radius: 20px;
     margin: 20px;
-    /*width: auto;
-    height: auto;*/
+    max-width: 90%;
+    max-height: 90%;
 }
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+  }
